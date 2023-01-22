@@ -1,0 +1,166 @@
+<html>
+    <head>
+	<title>Anaokulu Kayit Sistemi</title>
+	</head>
+	<body style="background-color:#FDFDBD">
+<fieldset style="background-color:#ACB78E">
+
+<legend style="text-align: center"><font size="5" color="#3D2B1F">Öğrenci Bilgileri</font></legend>
+
+<table border="2" cellspacing="2" cellpadding="5" width="500" align="center">
+<tr>
+  <td>Adınız</td>
+  <td class="bold">:</td>
+  <td><input type="text" name="inputName" id="inputName" class="newUserBox" minlength="2"></td>
+</tr>
+<tr>
+   <td>Soyadınız</td>
+  <td class="bold">:</td>
+   <td><input type="text" name="inputSurname" id="inputSurname" class="newUserBox" maxlength="20"></td>
+</tr>
+<tr>
+  <td>Telefon</td>
+  <td class="bold">:</td>
+  <td><input type="text" name="inputPhone" id="inputPhone" class="newUserBox" placeholder="+90XXXXXXXXXX" maxlength="13"/></td> 
+</tr>
+<tr>
+  <td>Konu</td>
+  <td class="bold">:</td>
+  <td>
+  <select name="inputSec" id="inputSec" class="newUserBox">
+    <option selected value="0">Seçiniz</option>
+    <option value="1">Öneri</option>
+    <option value="2">Talep</option>
+    <option value="3">Şikayet</option>
+  </select>
+  </td>
+</tr>
+<tr>
+  <td>Mesaj</td>
+  <td class="bold">:</td>
+  <td>
+  <textarea name="inputMesaj" rows="5" id="inputMesaj" minlength="10" maxlength="250" onkeyup="karaktersay(this.value);" class="newUserBox"></textarea><br>
+  <div id="char">250 karakter kaldı.</div>
+  </td>
+</tr>
+<tr>
+<td colspan="3" class="taCenter"><button id="btnAdd" onclick="formkontrol()">Gönder</button></td>
+</tr>
+</table>
+
+
+</fieldset>
+
+<br/>
+
+<fieldset  style="background-color:#ACB78E"">
+
+<legend style="text-align: center"><font size="5" color="#3D2B1F">Anne Bilgileri</font></legend>
+
+<table style="padding-left: 400px">
+     <tr>
+ <td>Anne Adı *</td>
+ <td>
+                <input type="text" name="" size="40" required/>
+            </td>
+ </tr>
+        <tr>
+ <td>Anne Soyadı *</td>
+ <td>
+                <input type="text" name="" size="40" required/>
+            </td>
+ </tr>
+ <tr>
+ <td>E-Posta Adresi *</td>
+ <td>
+                <input type="email" name="" size="40" required/>
+            </td>
+ </tr>
+ <tr>
+ <td>Cep Telefonu *</td>
+ <td>
+                <input type="tel" name="" placeholder="(___)(_______)" size="40" required/>
+            </td>
+ </tr>
+ <tr>
+ <td>Ev Telefonu *</td>
+ <td>
+                <input type="tel" name="" placeholder="(0212)(_______)" size="40" required/>
+            </td>
+ </tr>
+ <tr>
+ <td>Ev Adresi *</td>
+ <td>
+             <textarea name="" rows="4" style="width: 100%"></textarea>  
+            </td>
+ </tr>
+    <tr>
+</table>
+
+</fieldset>
+<br/>
+
+<fieldset  style="background-color:#ACB78E"">
+
+<legend style="text-align: center"><font size="5" color="#3D2B1F">Baba Bilgileri</font></legend>
+
+<table style="padding-left: 400px">
+     <tr>
+ <td>Baba Adı *</td>
+ <td>
+                <input type="text" name="" size="40" required/>
+            </td>
+ </tr>
+        <tr>
+ <td>Baba Soyadı *</td>
+ <td>
+                <input type="text" name="" size="40" required/>
+            </td>
+ </tr>
+ <tr>
+ <td>E-Posta Adresi *</td>
+ <td>
+                <input type="email" name="" size="40" required/>
+            </td>
+ </tr>
+ <tr>
+ <td>Cep Telefonu *</td>
+ <td>
+                <input type="tel" name="" placeholder="(___)(_______)" size="40" required/>
+            </td>
+ </tr>
+ <tr>
+ <td>Ev Telefonu *</td>
+ <td>
+                <input type="tel" name="" placeholder="(0212)(_______)" size="40" required/>
+            </td>
+ </tr>
+ <tr>
+ <td>Ev Adresi *</td>
+ <td>
+             <textarea name="" rows="4" style="width: 100%"></textarea>  
+            </td>
+ </tr>
+    <tr> 
+</table>
+</fieldset>
+</br>
+<fieldset  style="background-color:#ACB78E"">
+
+<legend style="text-align: center"><font size="5" color="#3D2B1F"></font></legend>
+
+<table style="padding-left: 400px">
+<tr>
+ <td colspan="2">
+                <input type="checkbox" id=""/> Üyelik Sözleşmesi şartlarını okudum ve kabul ediyorum.
+            </td>
+ </tr>
+        <tr>
+ <td colspan="150" rowspan="15" style="text-align: center" >
+                <input type="submit" value="KAYIT OL" id=""/>
+            </td>
+ </tr> 
+</table>
+</fieldset>
+</body>
+</html>

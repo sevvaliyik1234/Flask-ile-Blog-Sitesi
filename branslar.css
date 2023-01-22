@@ -1,0 +1,212 @@
+.header
+{
+    width: 100%;
+    height: 250px;
+    margin-left: auto;
+    background-color:#F3CCFF;
+    
+}
+.icindekiler
+{
+    width: 100%;
+    height: 250px;
+    margin-left: auto;
+    background-color:white;
+    
+}
+.main
+{
+    width: 100%;
+    height: 250px;
+    
+    margin-left: auto;
+    background-color:#F3CCFF;
+    
+}
+.duyurularetkinlikler
+{
+    width: 100%;
+    height: 250px;
+    margin-left: auto;
+    background-color:white;
+
+}
+.sosyalmedya
+{
+    width: 100%;
+    height: 250px;
+    margin-left: auto;
+    background-color:#F3CCFF;
+    
+}
+.footer
+{
+    width: 100%;
+    height: 250px;
+    margin-left: auto;
+    background-color:white;
+   
+}
+.müzik
+{
+    position:absolute;
+    border: 0px solid #000;
+    background-color:violet;
+    float: left;
+}
+img.müzik {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    object-fit: cover;
+    
+}
+.metin1 {
+    width:85%;
+    font-size:64pt;
+    margin-top:5px;
+    text-align: center;
+    word-spacing: 5px;
+    padding-left: 180px;
+}
+p { color:darkmagenta; font-size: 20px;text-align: center;margin-left: 50px; }
+h1{  text-align: center; padding: 20px; margin-left: 20px;font-size: 40px;   color:black}
+.ebru
+{
+    position: absolute;
+    border: 0px solid #000;
+    background-color:violet;
+    float: left;
+}
+img.ebru {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin-left: 1200px;
+    object-fit: cover;
+    
+}
+.metin2 {
+    width:85%;
+    font-size:64pt;
+    margin-top:5px;
+    text-align: center;
+    word-spacing: 5px;
+    padding-left: 10px;
+
+
+   }
+   p { color:darkmagenta; font-size: 20px;text-align: center;margin-left: 50px; }
+   h1{  text-align: center; padding: 20px; margin-left: 20px;font-size: 40px;   color:black}
+
+   .kodlama
+{
+    position:absolute;
+    border: 0px solid #000;
+    background-color:violet;
+    float: left;
+}
+img.kodlama {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    object-fit: cover;
+    
+}
+.metin3 {
+    width:85%;
+    font-size:64pt;
+    margin-top:5px;
+    text-align: center;
+    word-spacing: 5px;
+    padding-left: 180px;
+}
+p { color:darkmagenta; font-size: 20px;text-align: center;margin-left: 50px; }
+h1{  text-align: center; padding: 20px; margin-left: 20px;font-size: 40px;   color:black}
+
+.tiyatro
+{
+    position:absolute;
+    border: 0px solid #000;
+    background-color:violet;
+    float: left;
+}
+img.tiyatro {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin-left: 1200px;
+    object-fit: cover;
+    
+}
+.metin4{
+    width:85%;
+    font-size:64pt;
+    margin-top:5px;
+    text-align: center;
+    word-spacing: 5px;
+    padding-left: 10px;
+}
+p { color:darkmagenta; font-size: 20px;text-align: center;margin-left: 50px; }
+h1{  text-align: center; padding: 20px; margin-left: 20px;font-size: 40px;   color:black}
+
+.YabanciDil
+{
+    position:absolute;
+    border: 0px solid #000;
+    background-color:violet;
+    float: left;
+}
+img.YabanciDil {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    object-fit: cover;
+    
+}
+.metin5 {
+    width:85%;
+    font-size:64pt;
+    margin-top:5px;
+    text-align: center;
+    word-spacing: 5px;
+    padding-left: 180px;
+}
+p { color:darkmagenta; font-size: 20px;text-align: center;margin-left: 50px; }
+h1{  text-align: center; padding: 20px; margin-left: 20px;font-size: 40px;   color:black}
+
+.spor
+{
+    position:absolute;
+    border: 0px solid #000;
+    background-color:violet;
+    float: left;
+}
+img.spor {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin-left: 1200px;
+    object-fit: cover;
+    
+}
+.metin6{
+    width:85%;
+    font-size:64pt;
+    margin-top:5px;
+    text-align: center;
+    word-spacing: 5px;
+    padding-left: 10px;
+}
+p { color:darkmagenta; font-size: 20px;text-align: center;margin-left: 50px; }
+h1{  text-align: center; padding: 20px; margin-left: 20px;font-size: 40px;   color:black}
+

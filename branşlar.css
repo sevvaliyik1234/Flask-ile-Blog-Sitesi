@@ -1,0 +1,48 @@
+.header
+{
+    width: 100%;
+    height: 200px;
+    margin-left: auto;
+    background-color:#FDFDBD;
+    border-style: solid;
+}
+.icindekiler
+{
+    width: 100%;
+    height: 200px;
+    margin-left: auto;
+    background-color:#white;
+    border-style: solid;
+}
+.main
+{
+    width: 100%;
+    height: 200px;
+    margin-left: auto;
+    background-color:#FDFDBD;
+    border-style: solid;
+}
+.duyurularetkinlikler
+{
+    width: 100%;
+    height: 200px;
+    margin-left: auto;
+    background-color:#white;
+    border-style: solid;
+}
+.sosyalmedya
+{
+    width: 100%;
+    height: 200px;
+    margin-left: auto;
+    background-color:#FDFDBD;
+    border-style: solid;
+}
+.footer
+{
+    width: 100%;
+    height: 200px;
+    margin-left: auto;
+    background-color:#white;
+    border-style: solid;
+}
